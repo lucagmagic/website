@@ -1,0 +1,73 @@
+body {
+    background: #013328;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    /* letter-spacing: 2px; */
+}
+
+img {
+    border-radius: 20%;
+  }
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 200px;
+  }
+
+.profile-name {
+      text-align: center;
+      padding-bottom: 10px;
+  }
+
+.links {
+      text-align: center;
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid white;
+      border-width: 2px;
+      width: 290px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 40px;
+      justify-content: center;
+      align-items: center;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s; 
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: #000;
+    background: #fff;
+}
+
+i{
+    float: left;
+}
+
+.fab, .fas{
+   font-size: 30px;
+   align-items: flex-start;
+
+}
+
+#instaLinkTree{
+    margin-top: 0;
+}
